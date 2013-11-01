@@ -9,7 +9,7 @@ Stable tag: 1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This Payment Gateway For WooCommerce extends the functionality of WooCommerce to accept payments from credit/debit cards on your checkout page using Authorize.net AIM Integration.
+Plugin extends the functionality of WooCommerce to accept payments from credit/debit cards on your checkout page using Authorize.net AIM Integration.
 
 == Description ==
 
