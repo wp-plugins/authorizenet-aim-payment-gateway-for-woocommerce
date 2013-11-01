@@ -3,9 +3,9 @@
    Plugin Name: Authorize.net AIM Payment Gateway For WooCommerce
    Description: Extends WooCommerce to Process Payments with Authorize.net AIM gateway.
    Version: 1.0
-   Plugin URI: http://www.phptubelight.com?source=woocomautho
+   Plugin URI: http://www.phptubelight.com/wordpress-innovations/?source=autho-aim
    Author: Ishan Verma 
-   Author URI: http://www.phptubelight.com?source=woocomautho
+   Author URI: http://www.phptubelight.com?source=autho-aim
    License: Under GPL2
 
 */
