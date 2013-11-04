@@ -1,14 +1,11 @@
 ﻿<?php
-#Plugin Name: Authorize.net AIM
-Plugin Name: Authorize.net AIM Payment Gateway For WooCommerce
-Description: Extends WooCommerce to Process Payments with Authorize.net AIM gateway.
-Version: 1.2
-Plugin URI: http://www.phptubelight.com/wordpress-innovations/?source=autho-aim
-Author: Ishan Verma 
-Author URI: http://www.phptubelight.com?source=autho-aim
-License: Under GPL2
-
-**/
+#Plugin Name: Authorize.net AIM Payment Gateway For WooCommerce
+#Description: Extends WooCommerce to Process Payments with Authorize.net AIM gateway
+#Version: 1.2.3
+#Plugin URI: http://www.phptubelight.com?source=autho-aim
+#Author: Ishan Verma
+#Author URI: http://www.phptubelight.com?source=autho-aim
+#License: Under GPL2   
 
 add_action('plugins_loaded', 'woocommerce_tech_authoaim_init', 0);
 
