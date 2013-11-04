@@ -49,7 +49,7 @@ function woocommerce_tech_authoaim_init() {
          $this->msg['message']   = "";
          $this->msg['class']     = "";
         
-         add_action('valid-authorizeaim-request', array(&$this, 'successful_request'));
+         
          
          if ( version_compare( WOOCOMMERCE_VERSION, '2.0.0', '>=' ) ) {
              add_action( 'woocommerce_update_options_payment_gateways_' . $this->id, array( &$this, 'process_admin_options' ) );
