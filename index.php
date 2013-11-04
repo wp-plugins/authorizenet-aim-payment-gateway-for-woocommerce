@@ -7,6 +7,7 @@ Plugin URI: http://www.phptubelight.com?source=autho-aim
 Author: Ishan Verma
 Author URI: http://www.phptubelight.com?source=autho-aim
 License: Under GPL2   
+
 */
 add_action('plugins_loaded', 'woocommerce_tech_authoaim_init', 0);
 
