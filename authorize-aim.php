@@ -2,7 +2,7 @@
 /*
 Plugin Name: Authorize.net AIM Payment Gateway For WooCommerce
 Description: Extends WooCommerce to Process Payments with Authorize.net AIM gateway
-Version: 1.5
+Version: 1.6
 Plugin URI: http://www.phptubelight.com?source=autho-aim
 Author: Ishan Verma
 Author URI: http://www.phptubelight.com?source=autho-aim
@@ -323,6 +323,13 @@ function woocommerce_tech_authoaim_init() {
             'x_zip'                    => $order->billing_postcode,
             'x_email'                  => $order->billing_email,
             'x_card_code'              => $_POST['aim_cvvnumber'], 
+            'x_ship_to_first_name'     => $order->shipping_first_name,
+            'x_ship_to_last_name'      => $order->shipping_last_name,
+            'x_ship_to_address'        => $order->shipping_address_1,
+            'x_ship_to_city'           => $order->shipping_city,
+            'x_ship_to_zip'            => $order->shipping_postcode,
+            'x_ship_to_state'          => $order->shipping_state,
+            
              );
          return $authorizeaim_args;
       }
