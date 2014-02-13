@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: Authorize.net AIM Payment Gateway For WooCommerce
-Description: Extends WooCommerce to Process Payments with Authorize.net AIM gateway
-Version: 1.6
+Description: Extends WooCommerce (v2.1.1) to Process Payments with Authorize.net AIM gateway
+Version: 2.0
 Plugin URI: http://www.phptubelight.com?source=autho-aim
 Author: Ishan Verma
 Author URI: http://www.phptubelight.com?source=autho-aim
@@ -268,14 +268,9 @@ function woocommerce_tech_authoaim_init() {
                      $order->add_order_note($this->success_message. $response_array[3] . 'Transaction ID: '. $response_array[6] );
                      unset($_SESSION['order_awaiting_payment']);
                  }
-        
-
 
                   return array('result'   => 'success',
-                     'redirect'  => add_query_arg('order',
-                                    $order->id, 
-                                    add_query_arg('key', $order->order_key, 
-                                    get_permalink(get_option('woocommerce_thanks_page_id')))));
+                     'redirect'  => get_site_url().'/checkout/order-received/'.$order->id.'/?key='.$order->order_key );
             }
             else{
             
