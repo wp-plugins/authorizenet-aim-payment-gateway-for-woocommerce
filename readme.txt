@@ -17,7 +17,7 @@ Plugin extends the functionality of WooCommerce to accept payments from credit/d
 
 Authorize.net is most widely used payment gateway to process payments online and accepts Visa, MasterCard, Discover and other variants of cards.
 
-<h3>WooCommerce 2.1.1 Compatible</h3>
+<h3>WooCommerce 2.x Compatible</h3>
 
 = Features =
 Few features of this plugin:
@@ -31,7 +31,9 @@ Few features of this plugin:
 
 
 **Contact me for any Help you need to setup or need extra feature, just leave a comment** 
-[Contact Ishan Verma](http://www.phptubelight.com/ "Contact for Help")
+[Contact Ishan Verma](https://twitter.com/justishan "Contact for Help")
+[Contact Plugin Support](http://www.wuxxa.com/product-support "Contact for Help")
+[FAQ and Common Queries](http://www.wuxxa.com/category/product-support)
 
 == Installation ==
 
