@@ -79,6 +79,8 @@ SSL is recommended.
 
 
 == Changelog ==
+= 2.01 =
+Phone number issue fixed
 = 2.0 =
 Compatible to WooCommerce 2.1.1
 
