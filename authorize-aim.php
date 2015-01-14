@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Authorize.net AIM Payment Gateway For WooCommerce
-Description: Extends WooCommerce (v2.1.1) to Process Payments with Authorize.net AIM gateway
-Version: 2.01
-Plugin URI: http://www.wuxxa.com/products/woocommerce-authorize-net-aim-plugin?source=autho-aim
+Description: Extends WooCommerce to Process Payments with Authorize.net AIM gateway
+Version: 2.02
+Plugin URI: http://www.indatos.com?ref=autho-aim
 Author: Ishan Verma
-Author URI: http://www.wuxxa.com?source=autho-aim
+Author URI: http://www.indatos.com?ref=autho-aim
 License: Under GPL2   
 
 */
@@ -262,7 +262,7 @@ function woocommerce_tech_authoaim_init() {
             if($response_array[0] == '1' ){
 
                 if ($order->status != 'completed') {
-                    $order->payment_complete();
+                    $order->payment_complete( $response_array[6]);
                      $woocommerce->cart->empty_cart();
 
                      $order->add_order_note($this->success_message. $response_array[3] . 'Transaction ID: '. $response_array[6] );

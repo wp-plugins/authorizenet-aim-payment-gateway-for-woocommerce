@@ -4,7 +4,7 @@ Contributors: ishanverma
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BGLLRRL64AKZU
 Tags: woocommerce authorize.net, authorize.net, payment gateway, woocommerce, woocommerce payment gateway
 Requires at least: 3.0.1
-Tested up to: 3.9.1
+Tested up to: 4.1
 Stable tag: 1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -32,8 +32,8 @@ Few features of this plugin:
 
 **Contact me for any Help you need to setup or need extra feature, just leave a comment** 
 [Contact Ishan Verma](https://twitter.com/justishan "Contact for Help")
-[Contact Plugin Support](http://www.wuxxa.com/product-support "Contact for Help")
-[FAQ and Common Queries](http://www.wuxxa.com/category/product-support)
+[Contact Plugin Support](http://www.indatos.com/resources/plugin-support/ "Contact for Help")
+
 
 == Installation ==
 
