@@ -2,7 +2,7 @@
 /*
 Plugin Name: Authorize.net AIM Payment Gateway For WooCommerce
 Description: Extends WooCommerce to Process Payments with Authorize.net AIM gateway
-Version: 2.02
+Version: 2.02.1
 Plugin URI: http://www.indatos.com?ref=autho-aim
 Author: Ishan Verma
 Author URI: http://www.indatos.com?ref=autho-aim

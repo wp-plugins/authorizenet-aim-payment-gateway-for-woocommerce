@@ -1,7 +1,7 @@
 === Plugin Name ===
 Authorize.net AIM Payment Gateway For WooCommerce
 Contributors: ishanverma
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BGLLRRL64AKZU
+Donate link: http://www.indatos.com?ref=wp.org
 Tags: woocommerce authorize.net, authorize.net, payment gateway, woocommerce, woocommerce payment gateway
 Requires at least: 3.0.1
 Tested up to: 4.1
@@ -17,7 +17,7 @@ Plugin extends the functionality of WooCommerce to accept payments from credit/d
 
 Authorize.net is most widely used payment gateway to process payments online and accepts Visa, MasterCard, Discover and other variants of cards.
 
-<h3>WooCommerce 2.x Compatible</h3>
+<h3>WooCommerce 2.2.11 Compatible</h3>
 
 = Features =
 Few features of this plugin:
@@ -79,6 +79,8 @@ SSL is recommended.
 
 
 == Changelog ==
+= 2.02.1 =
+WooCommerce 2.2.11 compatible
 = 2.01 =
 Phone number issue fixed
 = 2.0 =
