@@ -32,7 +32,8 @@ Few features of this plugin:
 
 **Contact me for any Help you need to setup or need extra feature, just leave a comment** 
 [Contact Ishan Verma](https://twitter.com/justishan "Contact for Help")
-[WordPress Tech Support](http://www.indatos.com/resources/plugin-support/ "Contact for Help") Page on our site.
+   
+Contact [WordPress Tech Support](http://www.indatos.com/resources/plugin-support/ "Contact for Help") Page on our site.
 
 
 == Installation ==
